@@ -1,0 +1,15 @@
+[package]
+name = "rssh"
+version = "0.1.0"
+authors = ["Iñigo Ochoa"]
+edition = "2021"
+description = "Manage, view, ping and connect using SSH config"
+repository = "https://github.com/inigochoa/rssh"
+license = "MIT"
+keywords = ["ssh", "ping", "connection"]
+categories = ["command-line-utilities", "network-programming"]
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+colored = "2.0"
+comfy-table = "7.1.1"
